@@ -1,0 +1,123 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ee64ccd4-f315-41bb-bcc6-58f392bca373" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ISE302039</ID>
+  <Name>ISE302039</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ISE302039</DataSourceID>
+  <Schema>
+    <xs:schema id="ISE302039" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ISE302039" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="d91381dd-e5aa-41bc-b199-4a16b197bbcc">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Urun_x0024_" msprop:design-time-name="1fccaa6a-e545-4dac-af87-cf1d13004784" msprop:DbTableName="Urun$" msprop:FriendlyName="Urun$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SatısID" msprop:design-time-name="de5edf34-03c2-4095-8267-e2e1ebd804e6" msprop:DbColumnName="SatısID" msprop:FriendlyName="SatısID" type="xs:double" />
+                  <xs:element name="TipID" msprop:design-time-name="e8746a2e-7251-4123-9075-b0c0c40940a5" msprop:DbColumnName="TipID" msprop:FriendlyName="TipID" type="xs:double" minOccurs="0" />
+                  <xs:element name="Tarih" msprop:design-time-name="9d4d271c-b174-4a0d-aaba-9efc8a567406" msprop:DbColumnName="Tarih" msprop:FriendlyName="Tarih" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SehirId" msprop:design-time-name="167df49f-df03-4a23-99af-62f16eb2a90f" msprop:DbColumnName="SehirId" msprop:FriendlyName="SehirId" type="xs:double" minOccurs="0" />
+                  <xs:element name="Miktar" msprop:design-time-name="9df0738f-28d1-4b79-9505-24b0acc04836" msprop:DbColumnName="Miktar" msprop:FriendlyName="Miktar" type="xs:double" minOccurs="0" />
+                  <xs:element name="Kar" msprop:design-time-name="aec4fafc-8454-4004-9191-0f7db50daf2b" msprop:DbColumnName="Kar" msprop:FriendlyName="Kar" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_UrunSehir_x0024_" msprop:design-time-name="1ad98f8b-cb9a-4cde-bd02-ca0322657810" msprop:DbTableName="UrunSehir$" msprop:FriendlyName="UrunSehir$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SehirID" msprop:design-time-name="53c83020-87f9-4ee5-a3df-4a9c013c0c30" msprop:DbColumnName="SehirID" msprop:FriendlyName="SehirID" type="xs:double" />
+                  <xs:element name="SehirAdi" msprop:design-time-name="7702dd8a-117e-4d24-930d-f58d2e949422" msprop:DbColumnName="SehirAdi" msprop:FriendlyName="SehirAdi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SemtAdi" msprop:design-time-name="81b42953-e28f-40fd-8ed2-1d3a68a82393" msprop:DbColumnName="SemtAdi" msprop:FriendlyName="SemtAdi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_UrunTip_x0024_" msprop:design-time-name="6155ba8d-34b5-41db-a65e-5a15fda8ef00" msprop:DbTableName="UrunTip$" msprop:FriendlyName="UrunTip$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TipID" msprop:design-time-name="24bb6e8f-813a-4a37-9a63-7daaf80c33cc" msprop:DbColumnName="TipID" msprop:FriendlyName="TipID" type="xs:double" />
+                  <xs:element name="UrunKategoriAdi" msprop:design-time-name="6ed06478-912d-4ceb-bcce-4abba20ad3ac" msprop:DbColumnName="UrunKategoriAdi" msprop:FriendlyName="UrunKategoriAdi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Urun_x0024_" />
+          <xs:field xpath="SatısID" />
+        </xs:unique>
+        <xs:unique name="dbo_UrunSehir_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_UrunSehir_x0024_" />
+          <xs:field xpath="SehirID" />
+        </xs:unique>
+        <xs:unique name="dbo_UrunTip_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_UrunTip_x0024_" />
+          <xs:field xpath="TipID" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Urun_x0024_-UrunTip_x0024_" msdata:parent="dbo_UrunTip_x0024_" msdata:child="dbo_Urun_x0024_" msdata:parentkey="TipID" msdata:childkey="TipID" />
+          <msdata:Relationship name="Urun_x0024_-UrunSehir_x0024_" msdata:parent="dbo_UrunSehir_x0024_" msdata:child="dbo_Urun_x0024_" msdata:parentkey="SehirID" msdata:childkey="SehirId" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <ISE302039 xmlns="" />
+  </Schema>
+</DataSourceView>

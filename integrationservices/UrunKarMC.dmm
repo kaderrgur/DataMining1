@@ -1,0 +1,176 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e53be662-2767-4d12-ad97-efc9b705a27c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>UrunKarMC</ID>
+  <Name>UrunKarMC</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_Urun$</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b46ae591-af2e-445a-8915-ee098d7417f1">
+    <DataSourceViewID>ISE302039_1</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="028ad752-c7bb-485e-bcdc-658d51f02475">
+      <ID>Kar</ID>
+      <Name>Kar</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b84fb1af-ec9f-4f0c-bc63-ea72f0480532">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="761f0e13-ce4d-436e-90b5-7a7b7b097b4b">
+            <TableID>dbo_Urun_x0024_</TableID>
+            <ColumnID>Kar</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="00b5db26-0e35-42d1-9094-c9a40cbb9d29">
+      <ID>Miktar</ID>
+      <Name>Miktar</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d55a004-540a-450f-83bf-5c5d297a7902">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="141b8e76-677e-4dbb-9439-f8192ab11f2d">
+            <TableID>dbo_Urun_x0024_</TableID>
+            <ColumnID>Miktar</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="54ac0a42-280c-4975-9dbc-0f8b640d5d48">
+      <ID>Satıs ID</ID>
+      <Name>Satıs ID</Name>
+      <IsKey>true</IsKey>
+      <Type>Double</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1f8c4a5-b191-4473-8a1b-cb3b1628e9c9">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6597ecc5-cfee-4f2a-ad11-e15371d39546">
+            <TableID>dbo_Urun_x0024_</TableID>
+            <ColumnID>SatısID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="2e636e56-154d-454d-bd5a-cb5ac0bafe1e">
+      <ID>Sehir Id</ID>
+      <Name>Sehir Id</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="afdaa346-b7cf-4606-8910-331e5ad791ce">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef965f44-9661-411f-82dc-6c458d4ab917">
+            <TableID>dbo_Urun_x0024_</TableID>
+            <ColumnID>SehirId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="026a7e08-3cda-4e86-b78f-27f6f3f5119f">
+      <ID>Tip ID</ID>
+      <Name>Tip ID</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="93236e30-2711-4819-bfa6-3a8d2a768fe5">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f8eb028-7f82-4472-aae3-c6aef96e17a2">
+            <TableID>dbo_Urun_x0024_</TableID>
+            <ColumnID>TipID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="8f312bcf-ddb4-4800-9683-fad8ec945e18">
+      <ID>UrunKarMC</ID>
+      <Name>UrunKarMC</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Clustering</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="61b532cf-6ee3-4271-93eb-ce7e5b0cebfe">
+          <ID>Kar</ID>
+          <Name>Kar</Name>
+          <SourceColumnID>Kar</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="abc809f4-dba9-4ae7-ab85-61f7b8380ab7">
+          <ID>Miktar</ID>
+          <Name>Miktar</Name>
+          <SourceColumnID>Miktar</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="cee48001-7f9a-4131-93a2-4ea2e34d6df7">
+          <ID>Satıs ID</ID>
+          <Name>Satıs ID</Name>
+          <SourceColumnID>Satıs ID</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="05add917-f417-43db-8a9e-d5a81a213cba">
+          <ID>Sehir Id</ID>
+          <Name>Sehir Id</Name>
+          <SourceColumnID>Sehir Id</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="36bbbff4-9b79-4b99-b355-e85a5ef5d8a9">
+          <ID>Tip ID</ID>
+          <Name>Tip ID</Name>
+          <SourceColumnID>Tip ID</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
